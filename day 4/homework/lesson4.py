@@ -2,7 +2,6 @@ name = input("whats your name")
 
 lastname = input("whats your lastname")
 
-print(name + lastname)
+age = input ("whats your age?")
 
-print("nice to meet your")
-
+print(name + lastname + age) 
