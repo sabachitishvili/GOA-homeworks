@@ -70,10 +70,10 @@ print(list[-6:-1])
 #მომხმარებელს შემოატანინეთ აკადემიის სახელი. თუ ის "G"-თი იწყება, დაუპრინტეთ რომ გოა არის საუკეთესო არჩევანი. სხვა შემთხვევაში დაუპრინტეთ, რომ არასწორი გადაწყვეტილება მიიღო.
 
 
-academy_name = input("შეიყვანეთ აკადემიის სახელი")
+academy_name = input("enter best academy:")
 
-if academy_name == "G":
-    print("გოა არის საუკეთესო არჩევანი")
+if academy_name[0] == "G" or academy_name[0] == "g":
+    print("goa is the best")
 
 else:
-    print("არასწორი გადაწყვეტილება მიიღეთ")
+    print("wrong answer")
